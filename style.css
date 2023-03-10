@@ -1,0 +1,95 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: fit-content;
+  padding:10px;
+  text-align: center;
+  gap:10px;
+  align-items: stretch;
+
+}
+
+html{
+  display: flex;
+  justify-content: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  justify-content: center;
+}
+
+
+.todo-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.todo-list li{
+  display: flex;
+  justify-content: space-between;
+}
+
+li input{
+  flex-grow: 1;
+  text-align: center;
+}
+
+.complete-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.tasks {
+    display: flex;
+    gap: 10px;
+}
+
+input[disabled] {
+    border: none;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: none;
+    width: auto;
+    background-color: white
+}
+
+input {
+    color: black;
+}
+
+tasks {
+    display: flex;
+    flex-direction: column;
+}
+
+.pending {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.complete {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sectiontitle {
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "content": "laundry",
+      "pending": false,
+      "id": 1
+    },
+    {
+      "content": "gym",
+      "pending": true,
+      "id": 2
+    },
+    {
+      "content": "shopping",
+      "pending": true,
+      "id": 3
+    },
+    {
+      "content": "reading",
+      "pending": true,
+      "id": 4
+    },
+    {
+      "content": "Walking",
+      "pending": true,
+      "id": 5
+    },
+    {
+      "content": "Running",
+      "pending": false,
+      "id": 6
+    }
+  ]
+}
